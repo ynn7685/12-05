@@ -1,29 +1,45 @@
 body {
-  font-family: sans-serif;
-  padding-left: 11em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: sans-serif; */
+  /* padding-left: 11em; */
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
 	color: white;
   background-color: #708090; 
+  margin: 0px;
 }
 ul.navbar {
-  list-style-type: none;
+  /* list-style-type: none;
   padding: 0;
   margin: 0;
 	position: absolute;
   top: 2em;
   left: 1em;
-  width: 9em;
+  width: 9em; */
+  padding-left: 0px;
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
 }
 h1 {
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
 }
 ul.navbar li {
-  background: white;
+  /* background: white;
   margin: 0.5em 0;
   padding: 0.3em;
-  border-right: 1em solid black;
+  border-right: 1em solid black; */
+  float: left;
 }
 ul.navbar a {
+  /* text-decoration: none; */
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 a:link {
