@@ -78,5 +78,38 @@ address {
   
 .dropdown:hover .dropdown-content {
     display: block;
+    position: fixed;
 }
-  
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: #171717;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #171717;
+}
+
+tr:nth-child(odd) td {
+    background-color: #171717;
+}
+
+caption {
+    padding: 10px;
+}
